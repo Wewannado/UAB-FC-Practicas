@@ -1,0 +1,119 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Display
+# storage
+db|Display.(0).cnf
+db|Display.(0).cnf
+# case_insensitive
+# source_file
+Display.bdf
+9b4f8e393184e0304a1926e3ca3873d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+Senyals_UC_P
+# storage
+db|Display.(1).cnf
+db|Display.(1).cnf
+# case_insensitive
+# source_file
+Senyals_UC_P.bdf
+bc90c2de8d9457b11e3f59b75fe3eb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Senyals_UC_P:inst
+}
+# macro_sequence
+
+# end
+# entity
+Senyals_UC_PP_amunt
+# storage
+db|Display.(2).cnf
+db|Display.(2).cnf
+# case_insensitive
+# source_file
+Senyals_UC_PP_amunt.bdf
+527ee32b3f6dcda810e04f4ba6a113
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Senyals_UC_PP_amunt:inst1
+}
+# macro_sequence
+
+# end
+# entity
+Senyals_UC_PP_avall
+# storage
+db|Display.(3).cnf
+db|Display.(3).cnf
+# case_insensitive
+# source_file
+Senyals_UC_PP_avall.bdf
+5747b4ff31d547b63dfa0ebb23673ad
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Senyals_UC_PP_avall:inst2
+}
+# macro_sequence
+
+# end
+# entity
+Senyals_UC
+# storage
+db|Display.(4).cnf
+db|Display.(4).cnf
+# case_insensitive
+# source_file
+Senyals_UC.bdf
+68e6a3b645dd47c224ced8d171428e6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

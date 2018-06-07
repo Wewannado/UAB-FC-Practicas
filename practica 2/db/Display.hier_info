@@ -1,0 +1,116 @@
+|Senyals_UC
+P <= Senyals_UC_P:inst.P
+Pis_actual[0] => Senyals_UC_P:inst.Pis_actual[0]
+Pis_actual[0] => Senyals_UC_PP_amunt:inst1.Pis_actual[0]
+Pis_actual[0] => Senyals_UC_PP_avall:inst2.Pis_actual[0]
+Pis_actual[1] => Senyals_UC_P:inst.Pis_actual[1]
+Pis_actual[1] => Senyals_UC_PP_amunt:inst1.Pis_actual[1]
+Pis_actual[1] => Senyals_UC_PP_avall:inst2.Pis_actual[1]
+Pis_actual[2] => Senyals_UC_P:inst.Pis_actual[2]
+Pis_actual[2] => Senyals_UC_PP_amunt:inst1.Pis_actual[2]
+Pis_actual[2] => Senyals_UC_PP_avall:inst2.Pis_actual[2]
+Pis_actual[3] => Senyals_UC_P:inst.Pis_actual[3]
+Pis_actual[3] => Senyals_UC_PP_amunt:inst1.Pis_actual[3]
+Pis_actual[3] => Senyals_UC_PP_avall:inst2.Pis_actual[3]
+Pis_actual[4] => Senyals_UC_P:inst.Pis_actual[4]
+Pis_actual[4] => Senyals_UC_PP_amunt:inst1.Pis_actual[4]
+Pis_actual[4] => Senyals_UC_PP_avall:inst2.Pis_actual[4]
+Pis_actual[5] => Senyals_UC_P:inst.Pis_actual[5]
+Pis_actual[5] => Senyals_UC_PP_amunt:inst1.Pis_actual[5]
+Pis_actual[5] => Senyals_UC_PP_avall:inst2.Pis_actual[5]
+Pis_actual[6] => Senyals_UC_P:inst.Pis_actual[6]
+Pis_actual[6] => Senyals_UC_PP_amunt:inst1.Pis_actual[6]
+Pis_actual[6] => Senyals_UC_PP_avall:inst2.Pis_actual[6]
+Pis_actual[7] => Senyals_UC_P:inst.Pis_actual[7]
+Pis_actual[7] => Senyals_UC_PP_amunt:inst1.Pis_actual[7]
+Pis_actual[7] => Senyals_UC_PP_avall:inst2.Pis_actual[7]
+Pis_demanat[0] => Senyals_UC_P:inst.Pis_demanat[0]
+Pis_demanat[0] => Senyals_UC_PP_amunt:inst1.Pis_demanat[0]
+Pis_demanat[0] => Senyals_UC_PP_avall:inst2.Pis_demanat[0]
+Pis_demanat[1] => Senyals_UC_P:inst.Pis_demanat[1]
+Pis_demanat[1] => Senyals_UC_PP_amunt:inst1.Pis_demanat[1]
+Pis_demanat[1] => Senyals_UC_PP_avall:inst2.Pis_demanat[1]
+Pis_demanat[2] => Senyals_UC_P:inst.Pis_demanat[2]
+Pis_demanat[2] => Senyals_UC_PP_amunt:inst1.Pis_demanat[2]
+Pis_demanat[2] => Senyals_UC_PP_avall:inst2.Pis_demanat[2]
+Pis_demanat[3] => Senyals_UC_P:inst.Pis_demanat[3]
+Pis_demanat[3] => Senyals_UC_PP_amunt:inst1.Pis_demanat[3]
+Pis_demanat[3] => Senyals_UC_PP_avall:inst2.Pis_demanat[3]
+Pis_demanat[4] => Senyals_UC_P:inst.Pis_demanat[4]
+Pis_demanat[4] => Senyals_UC_PP_amunt:inst1.Pis_demanat[4]
+Pis_demanat[4] => Senyals_UC_PP_avall:inst2.Pis_demanat[4]
+Pis_demanat[5] => Senyals_UC_P:inst.Pis_demanat[5]
+Pis_demanat[5] => Senyals_UC_PP_amunt:inst1.Pis_demanat[5]
+Pis_demanat[5] => Senyals_UC_PP_avall:inst2.Pis_demanat[5]
+Pis_demanat[6] => Senyals_UC_P:inst.Pis_demanat[6]
+Pis_demanat[6] => Senyals_UC_PP_amunt:inst1.Pis_demanat[6]
+Pis_demanat[6] => Senyals_UC_PP_avall:inst2.Pis_demanat[6]
+Pis_demanat[7] => Senyals_UC_P:inst.Pis_demanat[7]
+Pis_demanat[7] => Senyals_UC_PP_amunt:inst1.Pis_demanat[7]
+Pis_demanat[7] => Senyals_UC_PP_avall:inst2.Pis_demanat[7]
+PP_amunt <= Senyals_UC_PP_amunt:inst1.PP_amunt
+PP_avall <= Senyals_UC_PP_avall:inst2.PP_avall
+
+
+|Senyals_UC|Senyals_UC_P:inst
+P <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Pis_actual[0] => inst7.IN0
+Pis_actual[1] => inst6.IN0
+Pis_actual[2] => inst5.IN0
+Pis_actual[3] => inst4.IN0
+Pis_actual[4] => inst3.IN0
+Pis_actual[5] => inst2.IN0
+Pis_actual[6] => inst1.IN0
+Pis_actual[7] => inst.IN0
+Pis_demanat[0] => inst7.IN1
+Pis_demanat[1] => inst6.IN1
+Pis_demanat[2] => inst5.IN1
+Pis_demanat[3] => inst4.IN1
+Pis_demanat[4] => inst3.IN1
+Pis_demanat[5] => inst2.IN1
+Pis_demanat[6] => inst1.IN1
+Pis_demanat[7] => inst.IN1
+
+
+|Senyals_UC|Senyals_UC_PP_amunt:inst1
+PP_amunt <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Pis_actual[0] => inst8.IN0
+Pis_actual[1] => inst7.IN0
+Pis_actual[2] => inst6.IN0
+Pis_actual[3] => inst5.IN0
+Pis_actual[4] => inst4.IN0
+Pis_actual[5] => inst3.IN0
+Pis_actual[6] => inst.IN0
+Pis_actual[7] => ~NO_FANOUT~
+Pis_demanat[0] => ~NO_FANOUT~
+Pis_demanat[1] => inst14.IN0
+Pis_demanat[2] => inst16.IN0
+Pis_demanat[3] => inst13.IN0
+Pis_demanat[4] => inst11.IN0
+Pis_demanat[5] => inst15.IN0
+Pis_demanat[6] => inst12.IN0
+Pis_demanat[7] => inst.IN1
+Pis_demanat[7] => inst12.IN1
+
+
+|Senyals_UC|Senyals_UC_PP_avall:inst2
+PP_avall <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Pis_actual[0] => ~NO_FANOUT~
+Pis_actual[1] => inst.IN0
+Pis_actual[2] => inst3.IN0
+Pis_actual[3] => inst4.IN0
+Pis_actual[4] => inst5.IN0
+Pis_actual[5] => inst6.IN0
+Pis_actual[6] => inst7.IN0
+Pis_actual[7] => inst8.IN0
+Pis_demanat[0] => inst.IN1
+Pis_demanat[0] => inst12.IN1
+Pis_demanat[1] => inst12.IN0
+Pis_demanat[2] => inst15.IN0
+Pis_demanat[3] => inst11.IN0
+Pis_demanat[4] => inst13.IN0
+Pis_demanat[5] => inst16.IN0
+Pis_demanat[6] => inst14.IN0
+Pis_demanat[7] => ~NO_FANOUT~
+
+

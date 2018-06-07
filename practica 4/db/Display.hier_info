@@ -1,0 +1,17 @@
+|UC_MOV
+Enable <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+RST => inst14.IN0
+CK => ff2.CLK
+CK => ff1.CLK
+CK => ff0.CLK
+PP_avall => inst9.IN0
+PP_amunt => inst9.IN1
+P => inst31.IN2
+P => inst30.IN2
+P => inst10.IN0
+SP => inst32.IN2
+SP => inst11.IN0
+Alliberar <= inst39.DB_MAX_OUTPUT_PORT_TYPE
+Obrir <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+

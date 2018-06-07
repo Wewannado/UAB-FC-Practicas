@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 4.509 ns
+From           : SP
+To             : UC:inst|UC_MOV:inst1|ff0
+From Clock     : --
+To Clock       : CK
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.645 ns
+From           : UP:inst8|Pis:inst2|lpm_counter1:3bitBidir_count|lpm_counter:lpm_counter_component|cntr_reh:auto_generated|safe_q[0]
+To             : Obrir_Alliberar[3]
+From Clock     : CK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.679 ns
+From           : Polsador[5]
+To             : UP:inst8|Pisos_demanats:inst|Pisos_demanats1bit:inst12|inst9
+From Clock     : --
+To Clock       : CK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 256.08 MHz ( period = 3.905 ns )
+From           : UP:inst8|Pis:inst2|lpm_counter1:3bitBidir_count|lpm_counter:lpm_counter_component|cntr_reh:auto_generated|safe_q[0]
+To             : UC:inst|UC_MOV:inst1|ff2
+From Clock     : CK
+To Clock       : CK
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
