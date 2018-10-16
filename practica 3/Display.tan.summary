@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : -0.126 ns
+From           : Downup
+To             : lpm_counter1:3bitBidir_count|lpm_counter:lpm_counter_component|cntr_reh:auto_generated|safe_q[2]
+From Clock     : --
+To Clock       : CK
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 9.576 ns
+From           : lpm_counter1:3bitBidir_count|lpm_counter:lpm_counter_component|cntr_reh:auto_generated|safe_q[2]
+To             : Pis_actual[2]
+From Clock     : CK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.847 ns
+From           : Downup
+To             : lpm_counter1:3bitBidir_count|lpm_counter:lpm_counter_component|cntr_reh:auto_generated|safe_q[1]
+From Clock     : --
+To Clock       : CK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 420.17 MHz ( period = 2.380 ns )
+From           : lpm_counter0:2bit_count|lpm_counter:lpm_counter_component|cntr_a6j:auto_generated|safe_q[0]
+To             : lpm_counter1:3bitBidir_count|lpm_counter:lpm_counter_component|cntr_reh:auto_generated|safe_q[1]
+From Clock     : CK
+To Clock       : CK
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
